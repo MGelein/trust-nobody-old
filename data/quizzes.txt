@@ -2,36 +2,36 @@
 ? In welk team zat de mol tijdens het communicatiespel?
 - Op de boot
 - Op de pier
-- Op de toren
+> Op de toren
 
 ? Hoeveel geld heeft de mol in de pot gebracht?
 - €0 
 - €0 - €50 
-- €50 - €100 
+> €50 - €100 
 - €100 - €150
 - €150 - €200 
 - > €200
 
 ? Hoeveel foto’s heeft de groep van de mol gemaakt?
-- 1-2
+> 1-2
 - 3-4
 - 5-6
 - 6-7
 
 ? Had de mol de walky talky vast tijdens het spel?
-- Ja
+> Ja
 - Nee
 
 ? Op welke plaats staat de mol op de groepsfoto?
 - Links
-- Rechts
+> Rechts
 - In het midden
 
 ? Met hoeveel mensen zat de mol in een team (incl de mol zelf)?
 - 1
 - 2
 - 3
-- 4
+> 4
 - 5
 
 ? Wie is de mol?
@@ -39,45 +39,45 @@
 # Quiz 2 
 
 ? Was de mol een captain?
-- Ja
+> Ja
 - Nee
 
 ? Hoeveel mensen in de groep hebben geld gepakt?
 - niemand
 - minder dan de helft
-- meer dan de helft
+> meer dan de helft
 - iedereen
 
 ? Zat de mol in het winnende team?
 - Ja 
-- Nee
+> Nee
 
 ? Heeft de mol een joker verdiend tijdens het droedel spel?
-- Ja 
+> Ja 
 - Nee
 
 ? Als in welke groep ging de mol naar binnen tijdens het lasergamen spel? 
 - Groep 1
-- Groep 2
+> Groep 2
 - Groep 3
 
 ? Heeft de mol geld voor de pot binnen gebracht?
-- Ja 
+> Ja 
 - Nee, niks 
 - Nee, maar wel min geld
 
 ? Was de mol afgeschoten door een van de schutters? 
 - Ja 
-- Nee
+> Nee
 
 ? Was de mol binnen de tijd terug?
-- Ja
+> Ja
 - Nee
 
 ? Als hoeveelste ging de mol naar binnen bij het bakjes spel?
 - 1-2
 - 2-3
-- 3-4
+> 3-4
 - 5-6
 - 6-7
 - 8-9
