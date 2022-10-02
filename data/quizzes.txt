@@ -35,8 +35,6 @@
 - 5
 
 ? Wie is de mol?
-@USERS@
-
 
 # Quiz 2 
 
@@ -85,4 +83,3 @@
 - 8-9
 
 ? Wie is de mol?
-@USERS@
