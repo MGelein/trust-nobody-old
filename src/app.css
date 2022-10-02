@@ -10,17 +10,19 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
 
-  --foreground: #333;
-  --background: #eee;
-  --background-light: #fff;
+  --foreground: #fff;
+  --background: #333;
+  --background-light: #555;
+  --background-dark: #222;
   --accent: #21B100;
   --radius: 0.8rem;
-  --shadow-soft: 0.2rem 0.2rem 1.6rem rgba(0, 0, 0, 0.7);
-  --shadow-medium: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.7);
-  --shadow-hard: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.7);
+  --shadow-soft: 0.2rem 0.2rem 1.6rem rgba(0, 0, 0, 0.2);
+  --shadow-medium: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+  --shadow-hard: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 
 body{
+  color: var(--foreground);
   font-size: 1.6rem;
-  background: var(--background);
+  background: var(--background-dark);
 }
