@@ -63,7 +63,6 @@
         background: var(--background);
         border-radius: var(--radius);
         box-shadow: var(--shadow-soft);
-        margin: 2.4rem;
         min-width: min(calc(100% - 4.8rem), 60ch);
     }
 
