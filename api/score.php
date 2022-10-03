@@ -1,5 +1,7 @@
 <?php
 header('Content-Type: text/plain');
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
 
 if(!isset($_GET['method'])){
     exit('Malformed request');

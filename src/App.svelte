@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { getQuizData, getUserData } from "./util/api";
+  import { getQuizData, getUserData, registerUserScore } from "./util/api";
   import {
     getActiveScore,
     getActiveTime,
@@ -49,7 +49,7 @@
       setActiveTime(elapsed + getActiveTime());
 
       if (getCompletedQuizzes().length === quizzes.length) {
-        console.log("done");
+        registerUserScore();
       }
     }
   }
