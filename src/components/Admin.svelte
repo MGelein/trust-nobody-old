@@ -19,6 +19,7 @@
     let third: Score;
     let mol: User;
     let imageUrl: string | null = null;
+    let isMol = false;
     let submitting = false;
     let resetting = false;
     let feedback: string[] = [];
@@ -28,7 +29,7 @@
         scores = await getUserScores();
         scores.sort((a, b) => {
             if (a.score === b.score) return a.time - b.time;
-            return a.score - b.score;
+            return b.score - a.score;
         });
 
         if (scores.length < 1) newFeedback.push("Geen scores gevonden");
@@ -52,9 +53,11 @@
     }
 
     function submit() {
+        isMol = false;
         if (nameCompare(testName, first)) imageUrl = "gold.svg";
         if (nameCompare(testName, second)) imageUrl = "silver.svg";
         if (nameCompare(testName, third)) imageUrl = "bronze.svg";
+        if (mol.name === testName) isMol = true;
 
         submitting = true;
         setTimeout(() => (submitting = false), 1000);
@@ -64,7 +67,10 @@
 
     function handleInput(e: KeyboardEvent) {
         if (e.key === "Enter") submit();
-        else imageUrl = null;
+        else {
+            imageUrl = null;
+            isMol = false;
+        }
     }
 </script>
 
@@ -94,9 +100,20 @@
         </p>
     {/each}
 
-    {#if imageUrl}
-        <img transition:fade src={imageUrl} alt="result" class="result" />
-    {/if}
+    <div class="image-wrap">
+        {#if imageUrl}
+            <img transition:fade src={imageUrl} alt="result" class="result" />
+        {/if}
+        {#if isMol}
+            <img
+                transition:fade
+                src="mol.png"
+                alt="result"
+                class="result"
+                class:mol={imageUrl !== null}
+            />
+        {/if}
+    </div>
 
     {#if resetting}
         <section class="modal-wrap" transition:fade>
@@ -134,6 +151,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .image-wrap {
+        position: relative;
+        width: 100%;
     }
 
     .error {
@@ -187,6 +209,14 @@
     .result {
         max-width: 80vw;
         max-height: 40vh;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        &.mol {
+            transform-origin: center;
+            transform: translate(-37.5%, 4.5%) scale(1.2);
+        }
     }
 
     .input {
