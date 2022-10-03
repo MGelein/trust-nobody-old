@@ -102,5 +102,10 @@ export async function getUserScores() {
         const [name, scoreText, timeText] = line.split(',');
         return { name, score: parseInt(scoreText, 10), time: parseInt(timeText, 10) };
     });
-    return scores;
+    return scores.filter(score => score.name.length > 0);
+}
+
+export async function resetUserScores() {
+    const response = await (await fetch(SCORE_URL + 'reset')).text();
+    return response;
 }

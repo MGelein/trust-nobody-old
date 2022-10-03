@@ -61,9 +61,7 @@
 </script>
 
 {#if isAdmin}
-  <main class="content">
-    <Admin {users} />
-  </main>
+  <Admin {users} />
 {:else}
   <main class="content">
     {#if !activeUser || activeUser.length < 1}
