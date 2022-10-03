@@ -2,7 +2,7 @@ import { getActiveScore, getActiveTime, getActiveUser } from "./storage";
 
 const QUIZ_URL = 'https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/quizzes.txt';
 const USER_URL = 'https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/users.txt';
-const SCORE_URL = 'https://interwing.nl/trust-nobody/api/score.php?method=register';
+const SCORE_URL = 'https://interwing.nl/trust-nobody/api/score.php?method=';
 
 export type User = {
     name: string;
@@ -23,6 +23,12 @@ export type Question = {
 export type Quiz = {
     name: string;
     questions: Question[];
+}
+
+export type Score = {
+    name: string,
+    score: number;
+    time: number;
 }
 
 function clean(line: string, symbol: string) {
@@ -85,7 +91,16 @@ export async function registerUserScore() {
     const user = encodeURI(getActiveUser());
     const score = getActiveScore();
     const time = getActiveTime();
-    const parameters = `&user=${user}&score=${score}&time=${time}`;
+    const parameters = `register&user=${user}&score=${score}&time=${time}`;
     const response = await (await fetch(SCORE_URL + parameters)).text();
     return response;
+}
+
+export async function getUserScores() {
+    const data = await (await fetch(SCORE_URL + 'read')).text();
+    const scores: Score[] = data.split('\n').map(line => {
+        const [name, scoreText, timeText] = line.split(',');
+        return { name, score: parseInt(scoreText, 10), time: parseInt(timeText, 10) };
+    });
+    return scores;
 }
