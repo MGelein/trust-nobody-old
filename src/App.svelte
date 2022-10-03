@@ -6,9 +6,11 @@
   import Login from "./components/Login.svelte";
   import QuizCard from "./components/QuizCard.svelte";
   import Back from "./icons/Back.svelte";
+  import QuestionHeader from "./components/QuestionHeader.svelte";
 
   let activeUser: string;
   let activeQuiz: Quiz | null = null;
+  let activeQuestion: Question | null = null;
   let quizzes: Quiz[];
 
   onMount(async () => {
@@ -32,14 +34,33 @@
       <span>{activeQuiz.name}</span>
       <span />
     </h1>
+    <QuestionHeader
+      questions={activeQuiz.questions}
+      numCompleted={0}
+      {activeQuestion}
+      on:goto={({ detail: { index } }) =>
+        (activeQuestion = activeQuiz.questions[index])}
+    />
+    {#if activeQuestion}
+      <h2 class="question">{activeQuestion.text}</h2>
+    {/if}
   {:else if quizzes?.length > 0}
-    <h1 class="header"><span />Testen<span /></h1>
+    <h1 class="header">
+      <span />
+      <span>
+        Welkom {activeUser}
+      </span>
+      <span />
+    </h1>
     <section class="quiz-wrap">
       {#each quizzes as quiz}
         <QuizCard
           {quiz}
           {quizzes}
-          on:open={({ detail: { quiz } }) => (activeQuiz = quiz)}
+          on:open={({ detail: { quiz } }) => {
+            activeQuiz = quiz;
+            activeQuestion = quiz.questions[0];
+          }}
         />
       {/each}
     </section>
@@ -53,8 +74,14 @@
     flex-direction: column;
     position: absolute;
     inset: 0;
-    margin: 2.4rem;
+    margin: 2.4rem auto;
     gap: 2.4rem;
+    padding: 0 2.4rem;
+    max-width: 60ch;
+  }
+
+  .question {
+    margin-top: 2.4rem;
   }
 
   .back {
@@ -74,11 +101,12 @@
 
   .header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1em 1fr 1em;
     align-content: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
+    width: 100%;
   }
 
   .quiz-wrap {
