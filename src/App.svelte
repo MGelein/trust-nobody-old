@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import { getQuizData } from "./util/api";
   import { getActiveUser, setActiveScore, setActiveUser } from "./util/storage";
-  import type { Quiz } from "./util/api";
+  import type { Quiz, Question } from "./util/api";
   import Login from "./components/Login.svelte";
   import QuizCard from "./components/QuizCard.svelte";
   import Back from "./icons/Back.svelte";
