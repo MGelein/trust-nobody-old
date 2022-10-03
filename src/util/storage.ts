@@ -11,7 +11,7 @@ export function setActiveUser(value: string) {
 }
 
 export function getActiveScore() {
-    return window.localStorage.getItem(ACTIVE_SCORE);
+    return parseInt(window.localStorage.getItem(ACTIVE_SCORE) ?? '0', 10);
 }
 
 export function setActiveScore(value: number) {

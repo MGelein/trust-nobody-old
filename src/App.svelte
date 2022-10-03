@@ -1,22 +1,48 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { getQuizData } from "./util/api";
-  import { getActiveUser, setActiveScore, setActiveUser } from "./util/storage";
-  import type { Quiz, Question } from "./util/api";
+  import { getQuizData, getUserData } from "./util/api";
+  import {
+    getActiveScore,
+    getActiveUser,
+    getCompletedQuizzes,
+    setActiveScore,
+    setActiveUser,
+    setCompletedQuizzes,
+  } from "./util/storage";
+  import type { Quiz, Question as QuestionType, User } from "./util/api";
   import Login from "./components/Login.svelte";
   import QuizCard from "./components/QuizCard.svelte";
   import Back from "./icons/Back.svelte";
   import QuestionHeader from "./components/QuestionHeader.svelte";
+  import Question from "./components/Question.svelte";
 
   let activeUser: string;
   let activeQuiz: Quiz | null = null;
-  let activeQuestion: Question | null = null;
+  let activeQuestion: QuestionType | null = null;
   let quizzes: Quiz[];
+  let users: User[] = [];
 
   onMount(async () => {
     activeUser = getActiveUser();
     quizzes = await getQuizData();
+    users = await getUserData();
   });
+
+  function answerQuestion(correct: boolean) {
+    if (correct) {
+      setActiveScore(getActiveScore() + 1);
+    }
+
+    const nextIndex = activeQuiz.questions.indexOf(activeQuestion) + 1;
+    if (nextIndex < activeQuiz.questions.length) {
+      activeQuestion = activeQuiz.questions[nextIndex];
+    } else {
+      const completedQuizzes = getCompletedQuizzes();
+      setCompletedQuizzes([...completedQuizzes, activeQuiz.name]);
+      activeQuiz = null;
+      activeQuestion = null;
+    }
+  }
 </script>
 
 <main class="content">
@@ -36,13 +62,15 @@
     </h1>
     <QuestionHeader
       questions={activeQuiz.questions}
-      numCompleted={0}
+      numCompleted={activeQuiz.questions.indexOf(activeQuestion) + 1}
       {activeQuestion}
-      on:goto={({ detail: { index } }) =>
-        (activeQuestion = activeQuiz.questions[index])}
     />
     {#if activeQuestion}
-      <h2 class="question">{activeQuestion.text}</h2>
+      <Question
+        {users}
+        question={activeQuestion}
+        on:answer={({ detail: { correct } }) => answerQuestion(correct)}
+      />
     {/if}
   {:else if quizzes?.length > 0}
     <h1 class="header">
@@ -78,10 +106,6 @@
     gap: 2.4rem;
     padding: 0 2.4rem;
     max-width: 60ch;
-  }
-
-  .question {
-    margin-top: 2.4rem;
   }
 
   .back {

@@ -17,7 +17,7 @@
         const nextQuiz = quizzes.find(
             (q) => !quizNames.some((name) => q.name === name)
         );
-        next = nextQuiz.name === quiz.name;
+        next = nextQuiz?.name === quiz.name;
     });
 
     function openQuiz() {

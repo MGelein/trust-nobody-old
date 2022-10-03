@@ -1,9 +1,5 @@
 <script lang="ts">
     import type { Question } from "src/util/api";
-    import { createEventDispatcher } from "svelte";
-
-    const dispatch = createEventDispatcher();
-
     export let questions: Question[];
     export let numCompleted: number;
     export let activeQuestion: Question | null;
@@ -15,7 +11,6 @@
             class="ball"
             class:active={activeQuestion === q}
             class:completed={i < numCompleted}
-            on:click={() => dispatch("goto", { index: i })}
         />
     {/each}
 </section>
@@ -47,7 +42,6 @@
         background: var(--background-dark);
         border: 0.2rem solid var(--accent);
         transition: transform 0.5s ease-out;
-        cursor: pointer;
 
         &.completed {
             background: var(--accent);
