@@ -3,9 +3,11 @@
   import { getQuizData, getUserData } from "./util/api";
   import {
     getActiveScore,
+    getActiveTime,
     getActiveUser,
     getCompletedQuizzes,
     setActiveScore,
+    setActiveTime,
     setActiveUser,
     setCompletedQuizzes,
   } from "./util/storage";
@@ -21,6 +23,7 @@
   let activeQuestion: QuestionType | null = null;
   let quizzes: Quiz[];
   let users: User[] = [];
+  let quizStart: number = 0;
 
   onMount(async () => {
     activeUser = getActiveUser();
@@ -41,6 +44,13 @@
       setCompletedQuizzes([...completedQuizzes, activeQuiz.name]);
       activeQuiz = null;
       activeQuestion = null;
+
+      const elapsed = Date.now() - quizStart;
+      setActiveTime(elapsed + getActiveTime());
+
+      if (getCompletedQuizzes().length === quizzes.length) {
+        console.log("done");
+      }
     }
   }
 </script>
@@ -88,6 +98,7 @@
           on:open={({ detail: { quiz } }) => {
             activeQuiz = quiz;
             activeQuestion = quiz.questions[0];
+            quizStart = Date.now();
           }}
         />
       {/each}

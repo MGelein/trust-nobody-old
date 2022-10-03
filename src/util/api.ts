@@ -1,3 +1,5 @@
+import { getActiveScore, getActiveTime, getActiveUser } from "./storage";
+
 const QUIZ_URL = 'https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/quizzes.txt';
 const USER_URL = 'https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/users.txt';
 
@@ -76,4 +78,11 @@ export async function getQuizData() {
 export async function getUserData() {
     const data = await (await fetch(USER_URL)).text();
     return transformUserData(data);
+}
+
+export async function reportUserScore() {
+    const user = encodeURI(getActiveUser());
+    const score = getActiveScore();
+    const time = getActiveTime();
+    const parameters = `?user=${user}&score=${score}&time=${time}`;
 }

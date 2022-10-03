@@ -1,5 +1,6 @@
 const ACTIVE_USER = 'trustNobodyActiveUser';
 const ACTIVE_SCORE = 'trustNobodyActiveScore';
+const ACTIVE_TIME = 'trustNobodyActiveTime';
 const COMPLETED_QUIZZES = "trustNobodyCompletedQuizzes";
 
 export function getActiveUser() {
@@ -20,9 +21,18 @@ export function setActiveScore(value: number) {
 
 export function getCompletedQuizzes() {
     const value = window.localStorage.getItem(COMPLETED_QUIZZES);
-    return (value ?? '').split(',');
+    return value ? value.split(',') : [];
 }
 
 export function setCompletedQuizzes(names: string[]) {
     window.localStorage.setItem(COMPLETED_QUIZZES, names.join(','));
+}
+
+export function getActiveTime() {
+    const timeString = window.localStorage.getItem(ACTIVE_TIME);
+    return timeString ? parseInt(timeString, 10) : 0;
+}
+
+export function setActiveTime(time: number) {
+    window.localStorage.setItem(ACTIVE_TIME, `${time}`);
 }
