@@ -18,6 +18,7 @@
   import QuestionHeader from "./components/QuestionHeader.svelte";
   import Question from "./components/Question.svelte";
   import Admin from "./components/Admin.svelte";
+  import Scores from "./components/Scores.svelte";
 
   let activeUser: string;
   let activeQuiz: Quiz | null = null;
@@ -26,6 +27,7 @@
   let users: User[] = [];
   let quizStart: number = 0;
   let isAdmin: boolean = false;
+  let isScores: boolean = false;
 
   onMount(async () => {
     activeUser = getActiveUser();
@@ -34,6 +36,7 @@
 
     const params = new URLSearchParams(window.location.search);
     isAdmin = params.get("admin") !== null;
+    isScores = params.get("scores") !== null;
   });
 
   function answerQuestion(correct: boolean) {
@@ -60,7 +63,9 @@
   }
 </script>
 
-{#if isAdmin}
+{#if isScores}
+  <Scores />
+{:else if isAdmin}
   <Admin {users} />
 {:else}
   <main class="content">
