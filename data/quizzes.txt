@@ -1,10 +1,11 @@
 # Quiz 1
 ? In welk team zat de mol tijdens het communicatiespel?
-- Op de boot
-- Op de pier
-> Op de toren
+- Het team op de boot
+- Het team op de pier
+> Het team op de toren
+- Het team lopers
 
-? Hoeveel geld heeft de mol in de pot gebracht?
+? Hoeveel geld heeft de mol in de pot gebracht bij de foto-opdracht?
 - €0 
 - €0 - €50 
 > €50 - €100 
@@ -12,56 +13,94 @@
 - €150 - €200 
 - > €200
 
-? Hoeveel foto’s heeft de groep van de mol gemaakt?
+? Hoeveel foto’s heeft de groep waar de mol in zat gemaakt?
 > 1-2
 - 3-4
 - 5-6
 - 6-7
 
-? Had de mol de walky talky vast tijdens het spel?
+? Had de mol de walky talky vast tijdens het eerste spel?
 > Ja
 - Nee
 
-? Op welke plaats staat de mol op de groepsfoto?
-- Links
-> Rechts
-- In het midden
+? Wat was 1 van de 5 plaatjes die over had moeten blijven bij het eerste spel?
+- Adelaar
+> Groenland
+- Papegaai
+- Watertoren
 
-? Met hoeveel mensen zat de mol in een team (incl de mol zelf)?
+? Met hoeveel mensen zat de mol in een team (incl de mol zelf) bij de foto-opdracht?
 - 1
 - 2
 - 3
 > 4
 - 5
 
+? Is de mol een man of een vrouw?
+- man
+> vrouw
+
 ? Wie is de mol?
+- Rosalien
+- Tim
+- Coen
+- Myrthe
+- Bruno
+- Jasper
+- Freek
+- Ward
+- Anna
+- Evelien
+- Ruud
+- Rogier
+- Daan
+> Monique
+- Maxime
+- Sander
+- Lisanne
+- Guus
+- RogierS
+- Dylan
+- Frank
+- Jelle
+- Bart
+- Koen
+- Derk
+- Rosita
+- Maarten
 
 # Quiz 2 
 
-? Was de mol een captain?
+? Was de mol een captain bij het memory-spel?
 > Ja
 - Nee
 
-? Hoeveel mensen in de groep hebben geld gepakt?
+? Hoeveel mensen in de groep hebben geld gepakt bij de bakjes?
 - niemand
 - minder dan de helft
 > meer dan de helft
 - iedereen
 
-? Zat de mol in het winnende team?
+? Zat de mol in het winnende team bij het memory-spel?
 - Ja 
 > Nee
 
-? Heeft de mol een joker verdiend tijdens het droedel spel?
+? Heeft de mol een joker verdiend tijdens het memory-spel?
 > Ja 
 - Nee
 
-? Als in welke groep ging de mol naar binnen tijdens het lasergamen spel? 
+? Als hoeveelste groep ging de mol naar binnen tijdens het lasergamen spel (een trio telt als 1 groep)? 
 - Groep 1
 > Groep 2
 - Groep 3
+- Groep 4
+- Groep 5
+- Groep 6
+- Groep 7
+- Groep 8
+- Groep 9
 
-? Heeft de mol geld voor de pot binnen gebracht?
+? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 > Ja 
 - Nee, niks 
 - Nee, maar wel min geld
@@ -70,16 +109,35 @@
 - Ja 
 > Nee
 
-? Was de mol binnen de tijd terug?
+? Was de mol binnen de tijd terug bij het lasergamen?
 > Ja
 - Nee
 
-? Als hoeveelste ging de mol naar binnen bij het bakjes spel?
-- 1-2
-- 2-3
-> 3-4
-- 5-6
-- 6-7
-- 8-9
-
 ? Wie is de mol?
+- Rosalien
+- Tim
+- Coen
+- Myrthe
+- Bruno
+- Jasper
+- Freek
+- Ward
+- Anna
+- Evelien
+- Ruud
+- Rogier
+- Daan
+> Monique
+- Maxime
+- Sander
+- Lisanne
+- Guus
+- RogierS
+- Dylan
+- Frank
+- Jelle
+- Bart
+- Koen
+- Derk
+- Rosita
+- Maarten
