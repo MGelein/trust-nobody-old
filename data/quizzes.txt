@@ -64,13 +64,13 @@
 # Quiz 2 
 
 ? Was de mol een captain bij het memory-spel?
-> Ja
-- Nee
+- Ja
+> Nee
 
-? Hoeveel mensen in de groep hebben geld gepakt bij de bakjes?
+? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
 - niemand
-- minder dan de helft
-> meer dan de helft
+< minder dan de helft
+- meer dan de helft
 - iedereen
 
 ? Zat de mol in het winnende team bij het memory-spel?
@@ -78,32 +78,25 @@
 > Nee
 
 ? Heeft de mol een joker verdiend tijdens het memory-spel?
-> Ja 
-- Nee
-
-? Als hoeveelste groep ging de mol naar binnen tijdens het lasergamen spel (een trio telt als 1 groep)? 
-- Groep 1
-> Groep 2
-- Groep 3
-- Groep 4
-- Groep 5
-- Groep 6
-- Groep 7
-- Groep 8
-- Groep 9
-
-? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
-> Ja 
-- Nee, niks 
-- Nee, maar wel min geld
-
-? Was de mol afgeschoten door een van de schutters? 
 - Ja 
 > Nee
 
-? Was de mol binnen de tijd terug bij het lasergamen?
-> Ja
+? Als hoeveelste groep ging de mol naar binnen tijdens het lasergamen spel? 
+- Eerste sessie
+> Tweede sessie
+
+? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
+- Ja 
+- Nee, niks 
+> Nee, maar wel min geld
+
+? Was de mol afgeschoten door een van de schutters? 
+> Ja 
 - Nee
+
+? Was de mol binnen de tijd terug bij het lasergamen?
+- Ja
+> Nee
 
 ? Wie is de mol?
 - Rosalien
