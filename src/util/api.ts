@@ -31,6 +31,7 @@ export type Score = {
   name: string;
   score: number;
   time: number;
+  molCorrect: number;
 };
 
 function clean(line: string, symbol: string) {
@@ -93,19 +94,20 @@ export async function getUserData() {
   return transformUserData(data);
 }
 
-export async function registerUserScore() {
+export async function registerUserScore(molCorrect: number) {
   const user = encodeURI(getActiveUser());
   const score = getActiveScore();
   const time = getActiveTime();
-  return updateUserScore(user, score, time);
+  return updateUserScore(user, score, time, molCorrect);
 }
 
 export async function updateUserScore(
   user: string,
   score: number,
-  time: number
+  time: number,
+  molCorrect: number
 ) {
-  const parameters = `register&user=${user}&score=${score}&time=${time}`;
+  const parameters = `register&user=${user}&score=${score}&time=${time}&mol=${molCorrect}`;
   const response = await (await fetch(SCORE_URL + parameters)).text();
   return response;
 }
@@ -113,11 +115,12 @@ export async function updateUserScore(
 export async function getUserScores() {
   const data = await (await fetch(SCORE_URL + "read")).text();
   const scores: Score[] = data.split("\n").map((line) => {
-    const [name, scoreText, timeText] = line.split(",");
+    const [name, scoreText, timeText, molCorrectText] = line.split(",");
     return {
       name,
       score: parseInt(scoreText, 10),
       time: parseInt(timeText, 10),
+      molCorrect: parseInt(molCorrectText, 10),
     };
   });
   return scores.filter((score) => score.name.length > 0);

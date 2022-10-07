@@ -16,13 +16,14 @@ if($method == 'read'){
     file_put_contents('score.txt', '');
     exit('OK');
 }else if($method == 'register' or $method == 'add'){
-    if(!isset($_GET['user']) or !isset($_GET['score']) or !isset($_GET['time'])){
+    if(!isset($_GET['user']) or !isset($_GET['score']) or !isset($_GET['time']) or !isset($_GET['mol'])){
         exit('Malformed request');
     }
     $user = $_GET[ 'user'];
     $score = $_GET['score'];
     $time = $_GET[ 'time'];
-    $newLine = "$user,$score,$time";
+    $mol = $_GET['mol'];
+    $newLine = "$user,$score,$time,$mol";
 
     $lines = explode("\n", file_get_contents('score.txt'));
     $newLines = array();

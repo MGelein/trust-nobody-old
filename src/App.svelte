@@ -28,6 +28,7 @@
   let quizStart: number = 0;
   let isAdmin: boolean = false;
   let isScores: boolean = false;
+  let molCorrect: number = 0;
 
   onMount(async () => {
     activeUser = getActiveUser();
@@ -57,7 +58,7 @@
       setActiveTime(elapsed + getActiveTime());
 
       if (getCompletedQuizzes().length === quizzes.length) {
-        registerUserScore();
+        registerUserScore(molCorrect);
       }
     }
   }
@@ -93,6 +94,10 @@
           {users}
           question={activeQuestion}
           on:answer={({ detail: { correct } }) => answerQuestion(correct)}
+          on:mol={({ detail: { correct } }) => {
+            molCorrect = molCorrect + 1;
+            answerQuestion(correct);
+          }}
         />
       {/if}
     {:else if quizzes?.length > 0}

@@ -13,7 +13,7 @@
   });
 
   function updateScore(score: Score) {
-    updateUserScore(score.name, score.score, score.time);
+    updateUserScore(score.name, score.score, score.time, score.molCorrect);
   }
 </script>
 
