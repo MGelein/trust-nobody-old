@@ -116,7 +116,9 @@
         class="result"
         class:mol={imageUrl !== null}
       />
-      <span>{totalMolGuesses} keer geraden</span>
+      <div class="guessWrap">
+        <span class="guess">{totalMolGuesses} keer geraden</span>
+      </div>
     {/if}
   </div>
 
@@ -177,6 +179,13 @@
     &:hover {
       transform: scale(1.05);
     }
+  }
+
+  .guessWrap {
+    display: flex;
+    justify-content: center;
+    padding: 2.4rem;
+    font-size: 4rem;
   }
 
   .modal {
