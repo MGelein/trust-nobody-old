@@ -2,17 +2,17 @@
 ? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
 > Links
 - Midden
-- Rechts
+> Rechts
 
 ? In welk team zat de mol tijdens het communicatiespel?
 - Het team op de boot
 - Het team op de pier
 > Het team op de toren
-- Het team lopers
+> Het team lopers
 
 ? Hoeveel geld heeft de mol in de pot gebracht bij de foto-opdracht?
 > min € 200,-
-- min € 100,- 
+> min € 100,- 
 - geen geld
 - €50 - €150
 - €150 - €200 
@@ -45,7 +45,7 @@
 - Evelien
 - Ruud
 - Rogier
-- Daan
+> Daan
 > Monique
 - Maxime
 - Sander
