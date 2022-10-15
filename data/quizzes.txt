@@ -69,7 +69,7 @@
 
 ? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
 - niemand
-< minder dan de helft
+> minder dan de helft
 - meer dan de helft
 - iedereen
 
@@ -111,7 +111,7 @@
 - Evelien
 - Ruud
 - Rogier
-- Daan
+> Daan
 > Monique
 - Maxime
 - Sander
