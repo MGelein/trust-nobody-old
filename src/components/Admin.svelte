@@ -17,7 +17,7 @@
   let first: Score;
   let second: Score;
   let third: Score;
-  let mol: User;
+  let moles: User[];
   let imageUrl: string | null = null;
   let isMol = false;
   let submitting = false;
@@ -46,8 +46,8 @@
     third = scores[2];
     if (!third) newFeedback.push("Geen derde positie gevonden");
 
-    mol = users.find((user) => user.isMol);
-    if (!mol) newFeedback.push("Geen mol gevonden");
+    moles = users.filter((user) => user.isMol);
+    if (moles.length === 0) newFeedback.push("Geen mol gevonden");
 
     feedback = [...newFeedback];
   });
@@ -62,7 +62,7 @@
     if (nameCompare(testName, first)) imageUrl = "gold.svg";
     if (nameCompare(testName, second)) imageUrl = "silver.svg";
     if (nameCompare(testName, third)) imageUrl = "bronze.svg";
-    if (mol.name === testName) isMol = true;
+    if (moles.some(mol => mol.name === testName)) isMol = true;
 
     submitting = true;
     setTimeout(() => (submitting = false), 1000);
@@ -138,7 +138,7 @@
               first = null;
               second = null;
               third = null;
-              mol = null;
+              moles = [];
             }}
             color="accent">Bevestigen</Button
           >
