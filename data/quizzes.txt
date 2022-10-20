@@ -33,33 +33,6 @@
 > vrouw
 
 ? Wie is de mol?
-- Rosalien
-- Tim
-- Coen
-- Myrthe
-- Bruno
-- Jasper
-- Freek
-- Ward
-- Anna
-- Evelien
-- Ruud
-- Rogier
-> Daan
-> Monique
-- Maxime
-- Sander
-- Lisanne
-- Guus
-- RogierS
-- Dylan
-- Frank
-- Jelle
-- Bart
-- Koen
-- Derk
-- Rosita
-- Maarten
 
 # Quiz 2 
 
@@ -99,30 +72,3 @@
 > Nee
 
 ? Wie is de mol?
-- Rosalien
-- Tim
-- Coen
-- Myrthe
-- Bruno
-- Jasper
-- Freek
-- Ward
-- Anna
-- Evelien
-- Ruud
-- Rogier
-> Daan
-> Monique
-- Maxime
-- Sander
-- Lisanne
-- Guus
-- RogierS
-- Dylan
-- Frank
-- Jelle
-- Bart
-- Koen
-- Derk
-- Rosita
-- Maarten
