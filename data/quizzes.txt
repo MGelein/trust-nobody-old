@@ -56,8 +56,8 @@
 ? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
 - Minder dan 3 jokers
 - 3 tot 7 jokers
-> 8 tot 12 jokers
-- 13 tot 17 jokers
+- 8 tot 12 jokers
+> 13 tot 17 jokers
 - meer dan 17 jokers
 
 ? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
@@ -65,8 +65,8 @@
 > Laatste
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
-- Ja
-> Nee
+> Ja
+- Nee
 
 ? Heeft de mol een hint gevraagd bij de escape-room?
 - Ja
