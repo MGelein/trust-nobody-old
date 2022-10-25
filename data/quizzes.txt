@@ -4,47 +4,9 @@
 - Midden
 > Rechts
 
-? In welk team zat de mol tijdens het communicatiespel?
-- Het team op de boot
-- Het team op de pier
-> Het team op de toren
-> Het team lopers
-
-? Hoeveel geld heeft de mol in de pot gebracht bij de foto-opdracht?
-> min € 200,-
-> min € 100,- 
-- geen geld
-- €50 - €150
-- €150 - €200 
-- meer dan €200
-
-? Had de mol de walky talky vast tijdens het eerste spel?
-- Ja
-> Nee
-
-? Wat was 1 van de 5 plaatjes die over had moeten blijven bij het eerste spel?
-- Adelaar
-> Groenland
-- Papegaai
-- Watertoren
-
-? Is de mol een man of een vrouw?
-- man
-> vrouw
-
-? Wie is de mol?
-
-# Quiz 2 
-
 ? Was de mol een captain bij het memory-spel?
 - Ja
 > Nee
-
-? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
-- niemand
-> minder dan de helft
-- meer dan de helft
-- iedereen
 
 ? Zat de mol in het winnende team bij het memory-spel?
 - Ja 
@@ -54,9 +16,15 @@
 - Ja 
 > Nee
 
-? Als hoeveelste groep ging de mol naar binnen tijdens het lasergamen spel? 
-- Eerste sessie
-> Tweede sessie
+? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
+- Eerste trio
+> Tweede trio
+- Derde trio
+- Vierde trio
+- Vijfde trio
+- Zesde trio
+- Zevende duo
+- Achtste duo
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
@@ -68,6 +36,39 @@
 - Nee
 
 ? Was de mol binnen de tijd terug bij het lasergamen?
+- Ja
+> Nee
+
+? Is de mol een man of een vrouw?
+- man
+> vrouw
+
+? Wie is de mol?
+
+# Quiz 2 
+
+? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
+- niemand
+> minder dan de helft
+- meer dan de helft
+- iedereen
+
+? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
+- Minder dan 3 jokers
+- 3 tot 7 jokers
+> 8 tot 12 jokers
+- 13 tot 17 jokers
+- meer dan 17 jokers
+
+? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
+- Eerste
+> Laatste
+
+? Is de mol op tijd ontsnapt bij de escape-room?
+- Ja
+> Nee
+
+? Heeft de mol een hint gevraagd bij de escape-room?
 - Ja
 > Nee
 
