@@ -17,8 +17,8 @@
 > Nee
 
 ? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
-- Eerste trio
-> Tweede trio
+> Eerste trio
+- Tweede trio
 - Derde trio
 - Vierde trio
 - Vijfde trio
@@ -28,16 +28,16 @@
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
-- Nee, niks 
-> Nee, maar wel min geld
+> Nee, niks 
+- Nee, maar wel min geld
 
-? Was de mol afgeschoten door een van de schutters? 
-> Ja 
-- Nee
+? Was de mol 3x afgeschoten door de schutters? 
+- Ja 
+> Nee
 
 ? Was de mol binnen de tijd terug bij het lasergamen?
-- Ja
-> Nee
+> Ja
+- Nee
 
 ? Is de mol een man of een vrouw?
 - man
