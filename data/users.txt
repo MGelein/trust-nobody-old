@@ -9,7 +9,6 @@ Joanna,5798
 Karin,4678
 Katazyna,8963
 Kiran,1784
-Monika,7416
 Nick,4628
 Patricia,1638
 Piotr,4876
