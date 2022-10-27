@@ -60,15 +60,15 @@
 - meer dan 17 jokers
 
 ? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
-- Eerste
-> Laatste
+> Eerste
+- Laatste
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
 > Ja
 - Nee
 
 ? Heeft de mol een hint gevraagd bij de escape-room?
-- Ja
-> Nee
+> Ja
+- Nee
 
 ? Wie is de mol?
