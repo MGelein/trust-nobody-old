@@ -39,8 +39,8 @@
 - Nee
 
 ? Is de mol een man of een vrouw?
-> man
-- vrouw
+- man
+> vrouw
 
 ? Wie is de mol?
 
