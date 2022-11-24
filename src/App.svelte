@@ -95,7 +95,7 @@
           question={activeQuestion}
           on:answer={({ detail: { correct } }) => answerQuestion(correct)}
           on:mol={({ detail: { correct } }) => {
-            molCorrect = molCorrect + 1;
+            if(correct) molCorrect += 1;
             answerQuestion(correct);
           }}
         />
