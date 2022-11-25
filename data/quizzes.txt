@@ -1,7 +1,7 @@
 # Quiz 1
 ? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
-> Links
-- Midden
+- Links
+> Midden
 - Rechts
 
 ? Was de mol een captain bij het memory-spel?
@@ -9,8 +9,8 @@
 > Nee
 
 ? Zat de mol in het winnende team bij het memory-spel?
-- Ja 
-> Nee
+> Ja 
+- Nee
 
 ? Heeft de mol een joker verdiend tijdens het memory-spel?
 - Ja 
@@ -20,10 +20,10 @@
 > Eerste trio
 - Tweede trio
 - Derde trio
-- Vierde duo
+- Vierde trio
 - Vijfde trio
 - Zesde duo
-- Zevende trio
+- Zevende duo
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
