@@ -18,19 +18,18 @@
 
 ? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
 > Eerste trio
-- Tweede trio
-- Derde trio
-- Vierde trio
-- Vijfde trio
+- Tweede duo
+- Derde duo
+- Vierde duo
+- Vijfde duo
 - Zesde duo
-- Zevende duo
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
 > Nee, niks 
 - Nee, maar wel min geld
 
-? Was de mol 3x afgeschoten door de schutters? 
+? Was de mol 3x afgeschoten door de schutter? 
 - Ja 
 > Nee
 
@@ -39,8 +38,8 @@
 - Nee
 
 ? Is de mol een man of een vrouw?
-- man
-> vrouw
+> man
+- vrouw
 
 ? Wie is de mol?
 
@@ -55,20 +54,30 @@
 ? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
 - Minder dan 3 jokers
 - 3 tot 7 jokers
-- 8 tot 12 jokers
+> 8 tot 12 jokers
 - 13 tot 17 jokers
-> meer dan 17 jokers
+- meer dan 17 jokers
 
-? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
-- Eerste
-> Laatste
+? Waar zat de mol in het dorp bij de communicatie-opdracht?
+- Saloon
+- Galg
+- Huis A
+- Voor huis A
+- Huis B
+- Voor huis B
+- Huis C
+- Gevangenis
+- Kerk
+- Bank
+- Voor de bank
+- Winkel
+> Bij het bord met de antwoorden
 
-? Is de mol op tijd ontsnapt bij de escape-room?
-> Ja
-- Nee
+? Wat was 1 van de plaatjes die over had moeten blijven?
+- Adelaar
+> Groenland
+- Papegaai
+- Watertoren
 
-? Heeft de mol een hint gevraagd bij de escape-room?
-- Ja
-- Nee
 
 ? Wie is de mol?
