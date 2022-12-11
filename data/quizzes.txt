@@ -69,9 +69,9 @@
 - Gevangenis
 - Kerk
 - Bank
-- Voor de bank
+> Voor de bank/huis C
 - Winkel
-> Bij het bord met de antwoorden
+- Bij het bord met de antwoorden
 
 ? Wat was 1 van de plaatjes die over had moeten blijven?
 - Adelaar
