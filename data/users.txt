@@ -10,4 +10,3 @@ Tycho,4678
 Amy,8963
 Dana,1784
 Jara,5975
-Timo,1538
