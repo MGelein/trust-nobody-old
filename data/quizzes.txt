@@ -17,12 +17,13 @@
 > Nee
 
 ? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
-- Eerste duo
-- Tweede duo
-> Derde duo
-- Vierde duo
-- Vijfde duo
-- Zesde duo
+- Eerste trio
+- Tweede trio
+> Derde trio
+- Vierde trio
+- Vijfde trio
+- Zesde trio
+- Zevende trio
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
@@ -58,26 +59,16 @@
 - 13 tot 17 jokers
 > meer dan 17 jokers
 
-? Waar zat de mol in het dorp bij de communicatie-opdracht?
-- Saloon
-- Galg
-- Huis A
-- Voor huis A
-- Huis B
-- Voor huis B
-- Huis C
-- Gevangenis
-- Kerk
-- Bank
-> Voor de bank/huis C
-- Winkel
-- Bij het bord met de antwoorden
+? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
+- Eerste
+> Tweede
 
-? Wat was 1 van de plaatjes die over had moeten blijven?
-- Adelaar
-> Groenland
-- Papegaai
-- Watertoren
+? Is de mol op tijd ontsnapt bij de escape-room?
+- Ja
+> Nee
 
+? Heeft de mol een hint gevraagd bij de escape-room?
+- Ja
+> Nee
 
 ? Wie is de mol?
