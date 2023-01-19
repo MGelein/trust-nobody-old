@@ -1,16 +1,16 @@
 # Quiz 1
 ? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
-- Links
+> Links
 - Midden
-> Rechts
+- Rechts
 
 ? Was de mol een captain bij het memory-spel?
 > Ja
 - Nee
 
 ? Zat de mol in het winnende team bij het memory-spel?
-- Ja 
-> Nee
+> Ja 
+- Nee
 
 ? Heeft de mol een joker verdiend tijdens het memory-spel?
 > Ja 
@@ -20,7 +20,7 @@
 - Eerste trio
 - Tweede trio
 - Derde trio
--> Vierde trio
+> Vierde trio
 - Vijfde trio
 - Zesde trio
 - Zevende trio
