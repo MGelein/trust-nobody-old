@@ -65,11 +65,11 @@
 > Tweede
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
-> Ja
-- Nee
-
-? Heeft de groep van de mol een hint gevraagd bij de escape-room?
 - Ja
 > Nee
+
+? Heeft de groep van de mol een hint gevraagd bij de escape-room?
+> Ja
+- Nee
 
 ? Wie is de mol?
