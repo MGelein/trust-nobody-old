@@ -17,14 +17,15 @@
 - Ja 
 > Nee
 
-? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
-> Eerste trio
-- Tweede trio
-- Derde trio
-- Vierde trio
-- Vijfde trio
-- Zesde trio
-- Zevende trio
+? Als hoeveelste ging de mol naar binnen tijdens het lasergamen spel? 
+> Eerste
+- Tweede
+- Derde
+- Vierde
+- Vijfde
+- Zesde
+- Zevende
+- Achtste
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
@@ -40,8 +41,8 @@
 > Nee
 
 ? Is de mol een man of een vrouw?
-- man
-> vrouw
+> man
+- vrouw
 
 ? Wie is de mol?
 
@@ -60,9 +61,9 @@
 - 13 tot 17 jokers
 - meer dan 17 jokers
 
-? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
-- Eerste
-> Tweede
+? In welk huisje zat de mol bij de escape room?
+- Het hoge huisje van Larry
+> Het kleine huisje met de bedstede van Bill & Sarah
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
 - Ja
