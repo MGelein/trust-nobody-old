@@ -56,17 +56,17 @@
 
 ? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
 - Minder dan 3 jokers
-- 3 tot 7 jokers
-> 8 tot 12 jokers
+> 3 tot 7 jokers
+- 8 tot 12 jokers
 - 13 tot 17 jokers
 - meer dan 17 jokers
 
 ? In welk huisje zat de mol bij de escape room?
-- Het hoge huisje van Larry
-> Het kleine huisje met de bedstede van Bill & Sarah
+> Het hoge huisje van Larry
+- Het kleine huisje met de bedstede van Bill & Sarah
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
-- Ja
+> Ja
 > Nee
 
 ? Heeft de groep van de mol een hint gevraagd bij de escape-room?
