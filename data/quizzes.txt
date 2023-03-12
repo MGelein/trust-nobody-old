@@ -6,8 +6,8 @@
 - Rechts
 
 ? Was de mol een captain bij het memory-spel?
-- Ja
-> Nee
+> Ja
+- Nee
 
 ? Zat de mol in het winnende team bij het memory-spel?
 - Ja 
@@ -23,22 +23,22 @@
 - Derde
 - Vierde
 - Vijfde
-- Zesde
+> Zesde
 - Zevende
 - Achtste
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
-> Nee, niks 
-- Nee, maar wel min geld
+- Nee, niks 
+> Nee, maar wel min geld
 
 ? Was de mol 3x afgeschoten door de schutter? 
-- Ja 
-> Nee
+> Ja 
+- Nee
 
 ? Was de mol binnen de tijd terug bij het lasergamen?
-- Ja
-> Nee
+> Ja
+- Nee
 
 ? Is de mol een man of een vrouw?
 > man
