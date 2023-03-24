@@ -23,7 +23,7 @@
 - Derde
 - Vierde
 - Vijfde
-> Zesde
+- Zesde
 - Zevende
 - Achtste
 
@@ -67,7 +67,7 @@
 
 ? Is de mol op tijd ontsnapt bij de escape-room?
 > Ja
-> Nee
+- Nee
 
 ? Heeft de groep van de mol een hint gevraagd bij de escape-room?
 > Ja
