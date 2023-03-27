@@ -1,6 +1,6 @@
 import { getActiveScore, getActiveTime, getActiveUser } from "./storage";
 
-const SUFFIX = 1;
+const SUFFIX = 2;
 
 const QUIZ_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/quizzes${SUFFIX}.txt`;
 const USER_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/users${SUFFIX}.txt`;
