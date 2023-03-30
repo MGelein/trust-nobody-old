@@ -4,7 +4,7 @@ Agnieszka,1495
 Anne,7538
 Annika,2496
 Dana,2583
-Frits,1483
+Frederiek,1483
 Karin,5798
 Lisa,4678
 Maudi,8963
