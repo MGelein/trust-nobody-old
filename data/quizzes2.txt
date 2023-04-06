@@ -1,29 +1,18 @@
 # Quiz 1
 ? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
-> Links
+- Links
 - Midden
-- Rechts
-
-? Was de mol een captain bij het memory-spel?
-- Ja
-> Nee
-
-? Zat de mol in het winnende team bij het memory-spel?
-- Ja 
-> Nee
-
-? Heeft de mol een joker verdiend tijdens het memory-spel?
-- Ja 
-> Nee
+> Rechts
 
 ? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
-> Eerste trio
-- Tweede trio
-- Derde trio
-- Vierde duo
-- Vijfde trio
-- Zesde duo
-- Zevende trio
+- Eerste
+- Tweede
+> Derde 
+- Vierde
+- Vijfde
+- Zesde
+- Zevende
+- Achtste
 
 ? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
 - Ja 
@@ -31,8 +20,8 @@
 - Nee, maar wel min geld
 
 ? Was de mol 3x afgeschoten door de schutters? 
-- Ja 
-> Nee
+> Ja 
+- Nee
 
 ? Was de mol binnen de tijd terug bij het lasergamen?
 > Ja
@@ -59,16 +48,25 @@
 > 13 tot 17 jokers
 - meer dan 17 jokers
 
-? Zat de mol bij de eerste 2 of de laatste 2 groepen bij de escape room?
-> Eerste
-- Laatste
+? Waar stond de Mol bij de communicatieopdracht?
+> Ingang (bij het bord)
+- Kerk
+- Saloon
+- Bank
+- Gevangenis
+- Galg
+- Ergens bij strobalen in het dorp
 
-? Is de mol op tijd ontsnapt bij de escape-room?
-> Ja
-- Nee
+? Was de mol een captain bij het memory-spel?
+- Ja
+> Nee
 
-? Heeft de mol een hint gevraagd bij de escape-room?
-> Ja
-- Nee
+? Zat de mol in het winnende team bij het memory-spel?
+- Ja 
+> Nee
+
+? Heeft de mol een joker verdiend tijdens het memory-spel?
+- Ja 
+> Nee
 
 ? Wie is de mol?
