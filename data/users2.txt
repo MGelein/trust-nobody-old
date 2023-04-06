@@ -1,19 +1,17 @@
-Nicole,4872
-Donna,1495
-Jet,1476
-Loulou,7538
-Renate,2496
-Pauline,2583
-Nigel,1483
-Rosemarijn,5798
-Karin,4678
-Elsemieke,8963
-Nikki,1784
-Ellis,7416
-Myrte,5975
-Caroline,4628
-Marjolein,1638
-Djoya,1747
-Willemijn,6342
-Harmen,6541
->Sanne,9241
+Krista,3574
+>Judith,4865
+Esther,8731
+Patricia,5897
+Maurice,4858
+Barbara,1468
+Anita R,7544
+Natascha,4877
+Cathy,5612
+Elisa,1278
+Nick,1584
+Martijn,6575
+Alie,9754
+Roxanne,7564
+Monique A,7948
+Noa,2524
+Evelien,1649
