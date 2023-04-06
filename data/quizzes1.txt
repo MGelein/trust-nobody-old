@@ -2,8 +2,8 @@
 
 ? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
 - Links
-> Midden
-- Rechts
+- Midden
+> Rechts
 
 ? Was de mol een captain bij het memory-spel?
 - Ja
@@ -17,26 +17,18 @@
 - Ja 
 > Nee
 
-? Als hoeveelste ging de mol naar binnen tijdens het lasergamen spel? 
-> Eerste
-- Tweede
-- Derde
-- Vierde
-- Vijfde
-- Zesde
+? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
+> niemand
+- minder dan de helft
+- meer dan de helft
+- iedereen
 
-? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
-- Ja 
-> Nee, niks 
-- Nee, maar wel min geld
-
-? Was de mol 3x afgeschoten door de schutter? 
-- Ja 
-> Nee
-
-? Was de mol binnen de tijd terug bij het lasergamen?
-> Ja
-- Nee
+? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
+- Minder dan 3 jokers
+- 3 tot 7 jokers
+- 8 tot 12 jokers
+> 13 tot 17 jokers
+- meer dan 17 jokers
 
 ? Is de mol een man of een vrouw?
 - man
@@ -46,30 +38,36 @@
 
 # Quiz 2 
 
-? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
-- niemand
-> minder dan de helft
-- meer dan de helft
-- iedereen
+? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
+- Eerste
+- Tweede
+> Derde 
+- Vierde
+- Vijfde
+- Zesde
+- Zevende
+- Achtste
 
-? Hoeveel jokers zijn er denk je in totaal gepakt bij de bakjes?
-- Minder dan 3 jokers
-> 3 tot 7 jokers
-- 8 tot 12 jokers
-- 13 tot 17 jokers
-- meer dan 17 jokers
+? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
+- Ja 
+> Nee, niks 
+- Nee, maar wel min geld
 
-? In welk huisje zat de mol bij de escape room?
-> Het hoge huisje van Larry
-- Het kleine huisje met de bedstede van Bill & Sarah
-- Het verre huisje van Mary
+? Was de mol 3x afgeschoten door de schutters? 
+> Ja 
+- Nee
 
-? Is de mol op tijd ontsnapt bij de escape-room?
+? Was de mol binnen de tijd terug bij het lasergamen?
 > Ja
 - Nee
 
-? Heeft de groep van de mol een hint gevraagd bij de escape-room?
-- Ja
-> Nee
+? Waar stond de Mol bij de communicatieopdracht?
+> Ingang (bij het bord)
+- Kerk
+- Saloon
+- Bank
+- Gevangenis
+- Galg
+- Ergens bij strobalen in het dorp
 
 ? Wie is de mol?
