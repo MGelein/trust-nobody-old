@@ -48,46 +48,6 @@
 
 # Quiz 2 
 
-? Waar stond de Mol op de groepsfoto, gezien vanaf de fotograaf?
-- Links
-> Midden
-- Rechts
-
-? Was de mol een captain bij het memory-spel?
-- Ja
-> Nee
-
-? Zat de mol in het winnende team bij het memory-spel?
-- Ja 
-> Nee
-
-? Heeft de mol een joker verdiend tijdens het memory-spel?
-- Ja
-> Nee
-
-? Als hoeveelste groepje ging de mol naar binnen tijdens het lasergamen spel? 
-- Eerste
-> Tweede
-- Derde 
-- Vierde
-- Vijfde
-- Zesde
-- Zevende
-- Achtste
-
-? Heeft de mol geld voor de pot binnen gebracht bij de lasergame-opdracht?
-> Ja 
-- Nee, niks 
-- Nee, maar wel min geld
-
-? Was de mol 3x afgeschoten door de schutters? 
-- Ja 
-> Nee
-
-? Was de mol binnen de tijd terug bij het lasergamen?
-> Ja
-- Nee
-
 ? Is de mol een man of een vrouw?
 > man
 - vrouw
