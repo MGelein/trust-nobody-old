@@ -2,8 +2,8 @@ import { getActiveScore, getActiveTime, getActiveUser } from "./storage";
 
 const SUFFIX = 1;
 
-const QUIZ_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/quizzes${SUFFIX}.txt`;
-const USER_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody/master/data/users${SUFFIX}.txt`;
+const QUIZ_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody-old/master/data/quizzes${SUFFIX}.txt`;
+const USER_URL = `https://raw.githubusercontent.com/MGelein/trust-nobody-old/master/data/users${SUFFIX}.txt`;
 const SCORE_URL = "https://interwing.nl/trust-nobody/api/score.php?method=";
 
 export type User = {
