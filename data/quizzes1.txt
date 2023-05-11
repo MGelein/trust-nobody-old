@@ -34,8 +34,8 @@
 - Nee, maar wel min geld
 
 ? Was de mol 3x afgeschoten door de schutter? 
-- Ja 
-> Nee
+> Ja 
+- Nee
 
 ? Was de mol binnen de tijd terug bij het lasergamen?
 > Ja
@@ -50,8 +50,8 @@
 # Quiz 2 
 
 ? Is de mol een man of een vrouw?
-> man
-- vrouw
+- man
+> vrouw
 
 ? Hoeveel mensen in de groep hebben mingeld gepakt bij de bakjes?
 - niemand
