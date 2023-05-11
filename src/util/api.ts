@@ -84,13 +84,17 @@ function transformUserData(data: string) {
   return users;
 }
 
+function getRandomSalt() {
+  return `?t=${Date.now()}`;
+}
+
 export async function getQuizData() {
-  const data = await (await fetch(QUIZ_URL)).text();
+  const data = await (await fetch(QUIZ_URL + getRandomSalt())).text();
   return transformQuizData(data);
 }
 
 export async function getUserData() {
-  const data = await (await fetch(USER_URL)).text();
+  const data = await (await fetch(USER_URL + getRandomSalt())).text();
   return transformUserData(data);
 }
 
